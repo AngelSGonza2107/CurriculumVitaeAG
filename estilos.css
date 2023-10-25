@@ -1,0 +1,180 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #E7F8FA;
+}
+
+aside {
+  width: 300px;
+  height: 100vh;
+  float: left;
+  background-color: #1E3A6B;
+  color: white;
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+}
+
+main {
+  color: #1E3A6B;
+  width: 1200px;
+  float: right;
+  height:100vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+  border-radius: 80%;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+img:hover {
+  transform: scaleX(-1);
+  filter: grayscale(100%);
+}
+
+aside h1 {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 40px;
+  line-height: 40px;
+}
+
+#nombre h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#nombre h2 {
+  font-size: 23px;
+  text-align: center;
+}
+
+#datosacademicos h1 {
+  font-size: 25px;
+  padding-top: 25px;
+  margin-left: 20px;
+}
+
+#datosacademicos h2 {
+  color: #5868B2;
+  font-size: 18px;
+  margin-left: 30px;
+  padding-top: 10px;
+}
+
+#datosacademicos h3 {
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+#habilidades h1 {
+  width: 1000px;
+  font-size: 25px;
+  padding-top: 25px;
+  margin-left: 20px;
+}
+
+#nombrehobbies h1 {
+  font-size: 25px;
+  padding-top: 35px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+#nombrehobbies {
+  margin-top: 35px;
+}
+
+aside h2 {
+  font-size: 16px;
+  text-align: left;
+  margin-left: 40px;
+  line-height: 25px;
+}
+
+aside p {
+  font-size: 12px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+aside hr {
+  border-top: 3px dashed;
+}
+
+#contacto {
+  margin-bottom: 12px;
+}
+
+#datospersonales p {
+  margin-bottom: 5px;
+}
+
+#datospersonales {
+  margin-bottom: 8px;
+}
+
+#masinfo {
+  width: 250px;
+}
+
+#hab1 {
+  float: left;
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+#hab1 h2 {
+  font-size: 18px;
+  color: #5868B2;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#hab2 {
+  float: right;
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+#hab2 h2 {
+  font-size: 18px;
+  color: #5868B2;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+#hob1 {
+  float: left;
+  width: 50%;
+}
+
+
+
+#hob2 {
+  float: right;
+  width: 50%;
+}
+
+
+
+li {
+  font-size: 14px;
+  margin-left: 65px;
+  list-style-type: circle;
+  text-align: justify;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
