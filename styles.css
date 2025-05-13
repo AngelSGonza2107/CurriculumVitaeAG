@@ -135,8 +135,8 @@ span {
 /* Dispositivos pequeños */
 @media (max-width: 600px) {
   img {
-    height: 24px;
-    width: 24px;
+    height: 27px;
+    width: 27px;
   }
 
   .list_arrow {
@@ -156,7 +156,7 @@ span {
     text-align: center;
     width: 100%;
     white-space: normal;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 10px;
   }
 
@@ -173,7 +173,7 @@ span {
   }
 
   .languages {
-    top: 100%;
+    top: 75%;
     left: 50%;
     transform: translateX(-50%);
   }
