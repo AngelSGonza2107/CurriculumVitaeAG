@@ -21,16 +21,26 @@ opcionesArray.forEach((opcion)=>{
 
 function establecerIdioma(idioma) {
     idiomaActual.getElementsByTagName('img')[0].src = `assets/flags/${idioma}.png`;
+    let pdfPath;
     switch (idioma) {
         case 'ES':
-            pdf.src = 'PDFs/CV Español.pdf';
+            pdfPath = 'PDFs/CV_Espanol.pdf';
             break;
         case 'EN':
-            pdf.src = 'PDFs/CV English.pdf';
+            pdfPath = 'PDFs/CV_English.pdf';
             break;
         case 'DE':
-            pdf.src = 'PDFs/CV Deutsch.pdf';
+            pdfPath = 'PDFs/CV_Deutsch.pdf';
             break;
+    }
+
+    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+    if (isMobile) {
+        const fullURL = encodeURIComponent(`${location.origin}/${pdfPath}`);
+        pdf.src = `https://docs.google.com/gview?url=${fullURL}&embedded=true`;
+    } else {
+        pdf.src = pdfPath;
     }
 }
 

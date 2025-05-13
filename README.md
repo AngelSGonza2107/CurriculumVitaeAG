@@ -12,9 +12,9 @@ Bienvenido al repositorio de mi **Curriculum Vitae interactivo**. Este proyecto 
 
 ## ⬇️ Enlace de descarga
 
-1. [📄 Descargar CV en Español ](PDFs/CV%20Español.pdf) <br>
-2. [📄 Download English CV ](PDFs/CV%20English.pdf) <br>
-3. [📄 CV auf Deutsch herunterladen ](PDFs/CV%20Deutsch.pdf)
+1. [📄 Descargar CV en Español ](PDFs/CV_Espanol.pdf) <br>
+2. [📄 Download English CV ](PDFs/CV_English.pdf) <br>
+3. [📄 CV auf Deutsch herunterladen ](PDFs/CV_Deutsch.pdf)
 
 ---
 
