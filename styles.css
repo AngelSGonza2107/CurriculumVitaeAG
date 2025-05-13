@@ -155,12 +155,15 @@ span {
     font-size: 20px;
     text-align: center;
     width: 100%;
-    white-space: normal; /* Permite que el texto se ajuste */
+    white-space: normal;
+    margin-top: 15px;
+    margin-bottom: 10px;
   }
 
   .translate {
     width: 100%;
     justify-content: center;
+    margin-bottom: 4px;
   }
 
   .language {
@@ -182,7 +185,7 @@ span {
 
   .pdf {
     width: 100%;
-    height: 75vh;
+    height: 72vh;
     border-radius: 8px;
   }
 }
