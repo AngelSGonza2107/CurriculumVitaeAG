@@ -37,7 +37,7 @@ function establecerIdioma(idioma) {
     const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
     if (isMobile) {
-        const fullURL = encodeURIComponent(`${location.origin}/${pdfPath}`);
+        const fullURL = encodeURIComponent(`https://angelsgonza2107.github.io/CurriculumVitaeAG/${pdfPath}`);
         pdf.src = `https://docs.google.com/gview?url=${fullURL}&embedded=true`;
     } else {
         pdf.src = pdfPath;
