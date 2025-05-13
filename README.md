@@ -6,7 +6,7 @@ Bienvenido al repositorio de mi **Curriculum Vitae interactivo**. Este proyecto 
 
 ## 🔗 Demo en vivo
 
-🔍 Puedes ver la versión desplegada aquí: [Ver CV en línea]()
+🔍 Puedes ver la versión desplegada aquí: [Ver CV en línea](https://angelsgonza2107.github.io/CurriculumVitaeAG/)
 
 ---
 
