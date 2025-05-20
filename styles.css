@@ -122,14 +122,13 @@ span {
 }
 
 .pdf {
-  transition: all 0.3s ease;
   width: 90%;
   max-width: 950px;
   height: 88vh;
   border: none;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-  background-color: #ececec5d;
+  background-color: #0000005d;
 }
 
 /* Dispositivos pequeños */

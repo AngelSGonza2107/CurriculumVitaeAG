@@ -10,6 +10,13 @@ idiomaActual.addEventListener('click', ()=>{
     listaIdiomas.classList.toggle('toggle');
 });
 
+document.addEventListener('click', function(event) {
+    const isClickInside = idiomaActual.contains(event.target) || listaIdiomas.contains(event.target);
+    if (!isClickInside && listaIdiomas.classList.contains('toggle')) {
+        listaIdiomas.classList.remove('toggle');
+    }
+});
+
 const opcionesArray = Array.from(idiomas);
 
 opcionesArray.forEach((opcion)=>{
@@ -21,6 +28,7 @@ opcionesArray.forEach((opcion)=>{
 
 function establecerIdioma(idioma) {
     idiomaActual.getElementsByTagName('img')[0].src = `assets/flags/${idioma}.png`;
+    listaIdiomas.classList.remove('toggle');
     let pdfPath;
     switch (idioma) {
         case 'ES':
@@ -34,14 +42,7 @@ function establecerIdioma(idioma) {
             break;
     }
 
-    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-
-    if (isMobile) {
-        const fullURL = encodeURIComponent(`https://angelsgonza2107.github.io/CurriculumVitaeAG/${pdfPath}`);
-        pdf.src = `https://docs.google.com/gview?url=${fullURL}&embedded=true`;
-    } else {
-        pdf.src = pdfPath;
-    }
+    pdf.src = `https://docs.google.com/gview?url=https://angelsgonza2107.github.io/CurriculumVitaeAG/${pdfPath}&embedded=true`;
 }
 
 document.addEventListener('DOMContentLoaded', ()=>{
